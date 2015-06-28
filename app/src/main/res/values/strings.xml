@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">脉搏之星</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_main">Main</string>
+    <string name="tv_status">状态：正在连接...</string>
+    <string name="tv_maibo">脉率：-</string>
+    <string name="title_activity_btdetail">BTDetail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sp">SpActivity</string>
+
+</resources>

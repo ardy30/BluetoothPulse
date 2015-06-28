@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".MyActivity" >
+<item android:id="@+id/action_open"
+    android:title="Open"
+    android:orderInCategory="90"
+    android:icon="@drawable/open"
+    android:showAsAction="ifRoom"/>
+
+<item android:id="@+id/action_search"
+    android:title="Search"
+    android:orderInCategory="90"
+    android:icon="@drawable/search"
+    android:showAsAction="ifRoom" />
+
+<item android:id="@+id/action_main"
+    android:title="@string/action_main"
+    android:orderInCategory="90"
+    android:icon="@drawable/main"
+    android:showAsAction="ifRoom" />
+
+
+
+</menu>

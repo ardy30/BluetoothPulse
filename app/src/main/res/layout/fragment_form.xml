@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.fk.FormFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="姓名："
+        android:id="@+id/tvFrom1"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etForm1"
+        android:layout_alignBottom="@+id/tvFrom1"
+        android:layout_toRightOf="@+id/tvFrom1"
+        android:layout_toEndOf="@+id/tvFrom1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="年龄："
+        android:id="@+id/tvForm2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvFrom1"
+        android:layout_alignLeft="@+id/tvFrom1"
+        android:layout_alignStart="@+id/tvFrom1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etForm2"
+        android:layout_toEndOf="@+id/tvForm2"
+        android:layout_alignBottom="@+id/tvForm2"
+        android:layout_toRightOf="@+id/tvForm2"
+        android:layout_alignRight="@+id/etForm1"
+        android:layout_alignEnd="@+id/etForm1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="个人信息记录表"
+        android:id="@+id/tvFormHead"
+        android:layout_alignParentTop="true"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/radioGroup"
+        android:layout_above="@+id/etForm1"
+        android:layout_alignLeft="@+id/tvFrom1"
+        android:layout_alignStart="@+id/tvFrom1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:id="@+id/rbForm1"
+            android:checked="true"
+            android:layout_above="@+id/etForm1"
+            android:layout_alignLeft="@+id/tvFrom1"
+            android:layout_alignStart="@+id/tvFrom1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:id="@+id/rbForm2"
+            android:checked="false"
+            android:layout_above="@+id/etForm1"
+            android:layout_alignLeft="@+id/etForm1"
+            android:layout_alignStart="@+id/etForm1" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:id="@+id/btnForm1"
+        android:layout_toStartOf="@+id/btnForm2"
+        android:layout_alignTop="@+id/btnForm2"
+        android:layout_toLeftOf="@+id/btnForm2"
+        android:layout_marginRight="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:id="@+id/btnForm2"
+        android:layout_below="@+id/etForm2"
+        android:layout_alignRight="@+id/etForm2"
+        android:layout_alignEnd="@+id/etForm2"
+        android:layout_marginTop="83dp" />
+
+</RelativeLayout>
